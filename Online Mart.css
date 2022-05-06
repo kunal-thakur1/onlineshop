@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    height: 15vh;
+    align-items: center;
+    
+}
+
+.logo{
+    color: red;
+    font-family: cursive;
+    
+}
+.logo span{
+    color: black;
+}
+
+
+.btn{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 20%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px  5px yellow;
+    border: 2px solid yellow;
+}
+
+.bg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(bg.jpeg);
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+main .bg h1{
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+main{
+    border-bottom: 2px solid yellow;
+}
+
+main .bg p{
+    color: whitesmoke;
+    text-align: center;
+    width: 50vw;
+    margin-bottom: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.line{
+    height: 5px;
+    width: 40%;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+
+.see h1{
+    background-color: red;
+    color: whitesmoke;
+    height: 10vh;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.deals{
+    display: flex;
+    height: 85vh;
+    background-color: rgb(33, 33, 33);
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    border: 2px solid rgb(255, 188, 4);
+    display: flex;
+    width: 25vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(229, 213, 213);
+    border-radius: 10px;
+    padding: 5px;
+     background-image: radial-gradient(orangered,yellow);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+
+.box p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.box:hover{
+    cursor: pointer; 
+    box-shadow:2px 2px 5px yellow;
+    /* box-shadow: -2px -2px 5px yellow;    */
+    border: 2px solid orange;
+    text-shadow: 2px 2px 2px orangered;
+    font-size: large;
+    transform: scale(1.1);
+    
+}
+
+
+
+.img{
+    margin: 10px;
+    align-self: center;
+    margin-left: 0;
+
+}
+#img{
+    height: 100vh;
+    transition: 0.5s;
+}
+#img:hover{
+    transform: scale(0.9);
+}
+
+.page1{
+    background-color: rgb(33, 33, 33);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.page1box h1{
+    color:  rgb(255, 0, 43);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.page1box h3{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.page1 .page1box h2 span{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+.page1box h2{
+    color: rgb(255, 41, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px
+
+}
+
+
+
+.page2{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(33, 33, 33);
+}
+
+.page2img{
+    width: 100%;
+    height: 60vh;
+    /* background-image: url('page2img.jpeg'); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(page2img.jpeg);
+    
+}
+.page2{
+    display: flex;
+    flex-direction: column;
+}
+.suggestion{
+    display: flex;
+    justify-content: space-evenly;
+    /* overflow-x: scroll; */
+    flex-wrap: wrap;
+}
+#gift{
+    text-align: center;
+    /* color: whitesmoke; */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+
+}
+#paragift{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 50vw;
+}
+.page2img:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.suggest{
+    display: flex;
+    
+}
+#sug{
+    color: whitesmoke;
+    transform: rotate(270deg);
+    font-size: 50px;
+}
+.suggestion h2{
+    color: black;
+}
+.suggestion p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+.sug1{
+    border-radius: 10px;
+    padding: 15px;
+    /* background-image: url('sug1.webp'); */
+    height: 40vh;
+    width: 40vh;
+    background : linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(sug1.webp);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+
+
+.sug1:hover{
+    transform: scale(0.9);
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+.sug2{
+    border-radius: 10px;
+    padding: 15px;
+    /* background-image: url('sug1.webp'); */
+    height: 40vh;
+    width: 40vh;
+    background : linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(sug2.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px whitesmoke;
+    
+}
+
+
+.sug2:hover{
+    transform: scale(0.9);
+    font-size: larger;
+    cursor: pointer;
+}
+
+.sug3{
+    border-radius: 10px;
+    padding: 15px;
+    /* background-image: url('sug1.webp'); */
+    height: 40vh;
+    width: 40vh;
+    background : linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(sug3.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px whitesmoke;
+   
+}
+
+
+.sug3:hover{
+    transform: scale(0.9);
+    font-size: larger;
+    cursor: pointer;
+    
+}
+
+.best{
+    background-color: rgb(33, 33, 33);
+}
+
+.bestbuys{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    justify-content: space-around;
+}
+.best h1{
+    color: yellow;
+    /* border: 2px solid wheat; */
+    text-align: center;
+    height: 5vh;
+    padding: 5vh;
+    margin-bottom: 0;
+    font-size: xx-large;
+}
+.items h2{
+    color: whitesmoke;
+    text-align: center;
+}
+.items p{
+    color: whitesmoke;
+    text-align: center;
+}
+.item{
+    width: 15vw;
+    /* border-radius: 20px; */
+    height: 30vh;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0;
+    background: radial-gradient(rgb(246, 254, 0),rgb(109, 109, 109),rgba(0, 0, 0, 0.8));
+    padding-bottom: 20px;
+   
+    
+    
+}
+.items:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    box-shadow: 2px 0px 5px whitesmoke;
+    background: radial-gradient(rgb(255, 255, 255),rgb(121, 121, 121),rgba(0, 0, 0, 0.8));
+    cursor: pointer;
+}
+
+.lineofpage3{
+    margin-left: 30vw;
+    height: 5px;
+    width: 40%;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+.footer{
+    background-color:rgb(0, 0, 0) ;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.foot h1{
+    color: rgb(255, 238, 0);
+}
+
+.foot li{
+    list-style: none;
+    margin: 5px;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.foot ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* _____________________________________________Media Queries______________________________________________________ */
+
+
+
+
+@media screen and (max-width:750px)  
+{
+    .logo{
+        font-size: large;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        background-color: yellow;
+        height: 10vh;
+        align-items: center;
+        
+    }
+
+    main .bg h1{
+        font-size: medium;
+        color: yellow;
+        font-weight: bold;
+        font-family: Courier New, Courier, monospace;
+    }
+    main .bg p{
+        font-size: medium;
+        font-size: small;
+    }
+
+    .line{
+        height: 2px;
+        border-radius: 5px;
+    }
+    .btn{
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 5px;
+        width: 50%;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .btn:hover{
+        cursor: pointer;
+        background-color: rgb(255, 255, 0);
+        color: rgb(0, 0, 0);
+        box-shadow: 2px 2px  5px yellow;
+        border: 2px solid yellow;
+    }
+
+    .see h1{
+        background-color: red;
+        color: whitesmoke;
+        height: 6vh;
+        font-size: small;
+        text-align: center;
+    }
+     
+    .deals{
+        flex-direction: row;
+        display: flex;
+        height: 55vh;
+        background-color: black;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    .box{
+        height: 10vh;
+        width: 20vh;
+        font-size: 10px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    .box p{
+        font-size: 8px;
+    }
+
+    .img{
+        margin: 5px;
+        align-self: center;
+        margin-left: 0;
+    
+    }
+    #img{
+        height: 50vh;
+    
+    }
+
+    #gift{
+        font-size: medium;
+    }
+    #paragift{
+        font-size: small;
+        width: 100%;
+    }
+    .page1{
+        flex-direction: column;
+    }
+    
+    .page1box h1{
+        font-size: 20px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .page1box h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .page1 .page1box h2 span{
+        font-size: 18px;
+        text-align: center;
+    }
+    .page1box h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .page2img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    #paragift{
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+    .page2img:hover{
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+
+    .suggestion h2{
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .suggestion p{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .sug1{
+        border-radius: 8px;
+        padding: 10px;
+        height: 20vh;
+        width: 20vh;
+    }
+     
+    .sug2{
+        border-radius: 8px;
+        padding: 10px;
+        height: 20vh;
+        width: 20vh;
+    }
+    .sug3{
+        border-radius: 8px;
+        padding: 10px;
+        height: 20vh;
+        width: 20vh;
+    }
+
+
+    /* ____________________________________________________________________________________________ */
+
+    .best{
+        background-color: rgb(33, 33, 33);
+    }
+    
+    .bestbuys{
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    .best h1{
+        height: 3vh;
+        padding: 3vh;
+        font-size: large;
+    }
+    .items h2{
+        font-size: medium;
+    }
+    .items p{
+        font-size: small;
+        padding: 5px;
+    }
+    .item{
+        width: 15vh;
+        height: 15vh;
+        padding: 5px;
+        margin: 5px;
+        
+        
+    }
+    
+    .lineofpage3{
+        height: 3px;
+        margin-bottom: 8px;
+
+    }
+    
+}
+
