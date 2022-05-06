@@ -271,6 +271,8 @@ main .bg p{
     align-items: center;
     flex-direction: column;
     box-shadow: 2px 2px 5px whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 
@@ -296,7 +298,9 @@ main .bg p{
     align-items: center;
     flex-direction: column;
     box-shadow: 2px 2px 5px whitesmoke;
-    
+    margin-bottom: 20px;
+    margin-top: 10px;
+
 }
 
 
@@ -321,7 +325,9 @@ main .bg p{
     align-items: center;
     flex-direction: column;
     box-shadow: 2px 2px 5px whitesmoke;
-   
+    margin-bottom: 20px;
+    margin-top: 10px;
+
 }
 
 
